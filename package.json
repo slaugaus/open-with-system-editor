@@ -1,20 +1,35 @@
 {
-  "name": "open-with-system-editor",
+  "name": "open-with-system",
   "displayName": "Open with System Editor",
   "description": "Registers a custom editor that opens files externally.",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "publisher": "slaugaus",
+  "icon": "./rsrc/icon.png",
   "engines": {
     "vscode": "^1.95.0"
   },
+  "keywords": [
+    "open",
+    "file",
+    "default application"
+  ],
   "categories": [
     "Other"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slaugaus/vscode-open-with-system-editor"
+  },
+  "homepage": "https://github.com/slaugaus/vscode-open-with-system-editor",
+  "bugs": {
+    "url": "https://github.com/slaugaus/vscode-open-with-system-editor/issues"
+  },
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
     "customEditors": [
       {
-        "viewType": "open-with-system-editor.hackJob",
+        "viewType": "open-with-system",
         "priority": "option",
         "displayName": "System Editor",
         "selector": [

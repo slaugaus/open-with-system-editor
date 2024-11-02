@@ -9,7 +9,7 @@ export class OpenWithSystemEditorProvider implements vscode.CustomEditorProvider
 
 	public static register(): vscode.Disposable {
 		return vscode.window.registerCustomEditorProvider(
-			"open-with-system-editor.hackJob",
+			"open-with-system",
 			new OpenWithSystemEditorProvider()
 		);
 	}
