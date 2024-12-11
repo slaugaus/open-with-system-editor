@@ -8,7 +8,7 @@ With respect to [sandcastle's Open](https://github.com/sandcastle/vscode-open), 
 
 To my knowledge, all the other extensions like this are adding commands or context menu items. Because this one pretends to be a custom editor, you can set it as the primary handler of a filetype, meaning all you have to do from then on is click the file and it'll open in the external editor.
 
-## Features
+## Usage
 
 From the Explorer view, right-click a file, `Open With...`, `System Editor`.
 
